@@ -1,0 +1,18 @@
+[{
+    "id": 1,
+    "task": "Mandin Kucing",
+    "complete": false
+  }, {
+    "id": 2,
+    "task": "Kasih makan kucing",
+    "complete": false
+  }, {  
+    "id": 4,
+    "task": "Kasi obat kucing",
+    "complete": false
+  }, {
+    "id": 5,
+    "task": "Jemur Iguana",
+    "complete": false
+  }
+]
