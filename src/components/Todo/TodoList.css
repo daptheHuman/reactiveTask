@@ -1,6 +1,7 @@
 /* Create best border style for lists */
 ul {
 	list-style-type: none;
+	padding: 5px 10px 5px 10px;
 }
 ul > li:first-child {
 	border-top-left-radius: 10px;
