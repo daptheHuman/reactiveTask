@@ -2,9 +2,11 @@ import React from 'react';
 import './Form.css';
 
 const Form = ({inputText, setInputText,todos,setTodos}) => {
+    //Handling on any text changes
     const inputTextHandler = (event) => {
         setInputText(event.target.value);
     };  
+    //Handling on submit into todos prop (useState)
     const submitTextHandler = (event) => {
         event.preventDefault();
         setTodos([...todos,
@@ -19,8 +21,10 @@ const Form = ({inputText, setInputText,todos,setTodos}) => {
     };
     return (
         <div className="Form">
-        <input value={inputText} onChange={inputTextHandler} type="text" placeholder="What needs to be done?" />
-        <button onClick={submitTextHandler}>Add</button>    
+            <form onSubmit={submitTextHandler}>
+                <input value={inputText} onChange={inputTextHandler} type="text" placeholder="What needs to be done?" />
+                <button onClick={submitTextHandler} type="submit">Add</button>  
+            </form>  
         </div>
     );
 }
