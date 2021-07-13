@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 const Todo = ({keys,taskName,taskComplete,todo, todos,setTodos}) => {
 
     const deleteHandler = (id) => {
@@ -21,10 +22,17 @@ const Todo = ({keys,taskName,taskComplete,todo, todos,setTodos}) => {
         }));    
     }
     return (
-        <li className="list-group-item">
+        <li className="list-group">
+            <i className="fa fa-pencil"></i>
             <span className={taskComplete+" item"}>{taskName}</span>
-            <button onClick={completeHandler} className="complete-btn">✔</button>
-            <button onClick={() => deleteHandler(keys)} className="delete-btn">✖</button>
+            <div className="actions">
+            <button onClick={completeHandler} className="complete-btn">
+                <i className="fa fa-check"></i>    
+            </button>
+            <button onClick={() => deleteHandler(keys)} className="delete-btn">
+                <i className="fa fa-times"></i>
+            </button>
+            </div>
         </li>
     );
 }

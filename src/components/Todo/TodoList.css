@@ -13,12 +13,19 @@ ul > li:first-child {
 ul > li {
 	border: solid turquoise;
 	border-width: 0px 3px 3px 3px;
-	column-gap: 0cm;
-	text-align: left;
-	padding: 5px 0px 5px 5px;
+	padding: 0px 0px 3px 3px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
 }
-ul > li:before {
-	content: '😎';
+
+ul > li > .actions {
+	margin-left: auto;
+}
+
+.fa-pencil {
+	margin: 0px 5px 0px 0px;
 }
 
 .strike {
