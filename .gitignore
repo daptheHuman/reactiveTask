@@ -21,3 +21,8 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+filter(id)-logic.png
+src/App.test.js
+src/logo.svg
+src/setupTests.js
