@@ -1,0 +1,40 @@
+.Form > form {
+	border: solid 2px #2ec4b6;
+	display: flex; /*remove the white space on top the components */
+	align-items: stretch;
+	height: 2rem;
+	width: max-content;
+	padding: 5px;
+	margin: 1.5rem auto 0.5rem auto;
+}
+
+.Form > form > input,
+select:focus-visible {
+	/* Make input focus border invisible */
+	outline: none;
+}
+
+button,
+input,
+select {
+	padding: 0px;
+	background: none;
+	background-color: #011627;
+	color: #fdfffc;
+	border: none;
+	outline: 0;
+	padding: 0px;
+}
+
+button:focus,
+input:focus,
+select:focus {
+	background-color: #011627;
+	color: #fdfffc;
+}
+
+/* Remove the dropdown border */
+.Form > form > select {
+	border: none;
+	outline: 0;
+}
