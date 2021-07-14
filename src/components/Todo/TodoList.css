@@ -1,33 +1,16 @@
 /* Create best border style for lists */
 ul {
 	list-style-type: none;
-	padding: 5px 10px 5px 10px;
+	padding: 10px 10px 5px 10px;
+	margin-top: 1rem;
 }
 ul > li:first-child {
 	border-top-left-radius: 10px;
-	border-color: turquoise;
-	border-width: 3px;
+	border-color: #2ec4b6;
+	border-width: 3px 3px 3px 3px;
 	border-style: solid;
 }
 
-ul > li {
-	border: solid turquoise;
-	border-width: 0px 3px 3px 3px;
-	padding: 0px 0px 3px 3px;
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: flex-start;
-}
-
-ul > li > .actions {
-	margin-left: auto;
-}
-
-.fa-pencil {
-	margin: 0px 5px 0px 0px;
-}
-
 .strike {
-	text-decoration: line-through;
+	text-decoration-line: line-through;
 }

@@ -1,0 +1,27 @@
+li {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+li.list-group {
+	border: solid #2ec4b6;
+	border-width: 3px 3px 3px 3px;
+	padding: 0px 5px 0px 5px;
+	margin-top: -3px;
+	width: 60vw;
+	height: 3rem;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.actions {
+	margin-left: auto;
+}
+
+i.fa {
+	font-style: normal;
+	font-size: 20px;
+	margin: 0px 5px 0px 5px;
+}
