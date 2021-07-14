@@ -1,5 +1,50 @@
-.App {
-	margin: auto;
-	text-align: center;
+* {
+	margin: 0;
+	padding: 0;
 	box-sizing: border-box;
+}
+.App {
+	margin: 0;
+	padding: 3rem 0 5rem 0;
+	scroll-behavior: smooth;
+	min-height: 100vh;
+	height: 100%;
+	background-color: #011627;
+	color: #fdfffc;
+}
+
+.Header {
+	text-align: center;
+	color: #ff9f1c;
+}
+
+.ProjectDescription {
+	text-align: center;
+	margin-top: 3rem;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	border: 2px solid #011627;
+}
+
+.ProjectDescription > a,
+a:link,
+a:visited,
+a:hover,
+a:active,
+a:focus,
+a:not([href]),
+a[href],
+a[href]:active,
+a[href]:visited,
+a[href]:hover,
+a[href]:focus,
+a[href]:not([href]),
+a[href]:target {
+	color: #fdfffc;
+	font-size: 0.7rem;
 }
