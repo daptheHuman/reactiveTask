@@ -41,5 +41,5 @@
 	"devDependencies": {
 		"gh-pages": "^3.2.3"
 	},
-	"homepage": "http://daptheHuman.github.io/task-app"
+	"homepage": "http://daptheHuman.github.io/reactiveTask"
 }
